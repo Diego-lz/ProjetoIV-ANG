@@ -9,7 +9,12 @@ const routes: Routes = [
   {
     path: 'aluno',
     loadChildren: () => import('./aluno/aluno-module').then(m => m.AlunoModule)
-  } 
+  },
+  {
+  path: 'exercicios',
+  loadChildren: () => import('./exercicios/exercicios-module').then(m => m.ExerciciosModule)
+  }
+
 
 ];
 
