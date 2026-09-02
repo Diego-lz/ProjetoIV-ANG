@@ -1,0 +1,5 @@
+Usuário: <input [(ngModel)] ="usuario"><br>
+Senha: <input [(ngModel)] ="senha"><br><br>
+
+<button (click)="entrar()" [disabled]="usuario === '' || senha === '' " >[ Entrar ]</button>
+<p>{{ mensagem }}</p>
