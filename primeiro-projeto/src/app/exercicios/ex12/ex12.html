@@ -1,0 +1,10 @@
+<p>Nome <input [(ngModel)]="nome" placeholder="Informe seu nome aqui" > </p>
+
+<p>Quantidades de disciplinas registradas: {{disciplina}} </p>
+<button (click)="diminuir()" [disabled]="disciplina === 1" >[ - ]</button>
+<button (click)="aumentar()" >[ + ]</button><br><br>
+
+<button (click)="matricula()" [disabled]="nome === ''"  >Realizar Matrícula</button>
+
+<p> {{mensagem}} </p>
+
