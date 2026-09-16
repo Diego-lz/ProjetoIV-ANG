@@ -11,8 +11,6 @@ export class Ex12 {
   disciplina = 1;
   mensagem = '';
   
-
-
   aumentar(){
     this.disciplina++;
     
