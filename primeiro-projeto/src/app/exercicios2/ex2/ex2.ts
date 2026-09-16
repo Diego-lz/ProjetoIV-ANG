@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
 export class Ex2 {
   usuarioLogado = false;
 
-  alternar(): void {
+  alternar(): void{
     this.usuarioLogado = !this.usuarioLogado;
   }
 
