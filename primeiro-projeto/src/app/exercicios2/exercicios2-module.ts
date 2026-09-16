@@ -17,6 +17,6 @@ import { Ex12 } from './ex12/ex12';
 
 @NgModule({
   declarations: [Ex1, Ex2, Ex3, Ex4, Ex5, Ex6, Ex7, Ex8, Ex9, Ex10, Ex11, Ex12],
-  imports: [CommonModule, Exercicios2RoutingModule],
+  imports: [CommonModule, FormsModule, Exercicios2RoutingModule],
 })
 export class Exercicios2Module {}
