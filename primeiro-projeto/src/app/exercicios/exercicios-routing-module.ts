@@ -15,18 +15,18 @@ import { Ex12 } from './ex12/ex12';
 
 
 const routes: Routes = [
- { path: 'exercicio1', component: Ex1 },
- { path: 'exercicio2', component: Ex2 },
- { path: 'exercicio3', component: Ex3 },
- { path: 'exercicio4', component: Ex4 },
- { path: 'exercicio5', component: Ex5 },
- { path: 'exercicio6', component: Ex6 },
- { path: 'exercicio7', component: Ex7 },
- { path: 'exercicio8', component: Ex8 },
- { path: 'exercicio9', component: Ex9 },
- { path: 'exercicio10', component: Ex10 },
- { path: 'exercicio11', component: Ex11 },
- { path: 'exercicio12', component: Ex12 }
+ { path: 'ex1', component: Ex1 },
+ { path: 'ex2', component: Ex2 },
+ { path: 'ex3', component: Ex3 },
+ { path: 'ex4', component: Ex4 },
+ { path: 'ex5', component: Ex5 },
+ { path: 'ex6', component: Ex6 },
+ { path: 'ex7', component: Ex7 },
+ { path: 'ex8', component: Ex8 },
+ { path: 'ex9', component: Ex9 },
+ { path: 'ex10', component: Ex10 },
+ { path: 'ex11', component: Ex11 },
+ { path: 'ex12', component: Ex12 }
  
 ];
 
